@@ -54,7 +54,6 @@ export interface PromoCode {
 // Order here doesn't matter: the page sorts by `added`, newest first.
 export const codes: PromoCode[] = [
   // ---- Working ----
-  { code: 'TARKOVFPSPATCH', status: 'working', modes: ALL_MODES, added: '2026-11-25', noteKey: 'tarcoins40k', reward: tarkovfpspatch },
   { code: 'READ80LV', status: 'working', modes: ALL_MODES, added: '2026-11-17', reward: read80lv },
   { code: 'PCGAMESN', status: 'working', modes: ALL_MODES, added: '2026-08-03', noteKey: 'kordBreach', reward: pcgamesn },
   { code: 'GAMESPARK', status: 'working', modes: ALL_MODES, added: '2026-08-03', noteKey: 'kordBreach', reward: gamespark },
@@ -62,6 +61,15 @@ export const codes: PromoCode[] = [
   { code: '9GAG', status: 'working', modes: PVE_ONLY, added: '2026-11-14', reward: ninegag },
 
   // ---- Expired ----
+  {
+    code: 'TARKOVFPSPATCH',
+    status: 'expired',
+    modes: ALL_MODES,
+    added: '2026-11-25',
+    expired: '2026-11-25',
+    noteKey: 'tarcoins40k',
+    reward: tarkovfpspatch,
+  },
   {
     code: '1YEAROFESCAPING',
     status: 'expired',
