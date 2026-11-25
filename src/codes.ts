@@ -6,6 +6,7 @@ import inven from './assets/rewards/inven.png';
 import ninegag from './assets/rewards/9gag.png';
 import gamespark from './assets/rewards/gamespark.png';
 import pcgamesn from './assets/rewards/pcgamesn.png';
+import tarkovfpspatch from './assets/rewards/tarkovfpspatch.png';
 // Expired
 import oneYearOfEscaping from './assets/rewards/1yearofescaping.png';
 import undeadtarkov from './assets/rewards/undeadtarkov.png';
@@ -53,7 +54,7 @@ export interface PromoCode {
 // Order here doesn't matter: the page sorts by `added`, newest first.
 export const codes: PromoCode[] = [
   // ---- Working ----
-  { code: 'TARKOVFPSPATCH', status: 'working', modes: ALL_MODES, added: '2026-11-25', noteKey: 'tarcoins40k' },
+  { code: 'TARKOVFPSPATCH', status: 'working', modes: ALL_MODES, added: '2026-11-25', noteKey: 'tarcoins40k', reward: tarkovfpspatch },
   { code: 'READ80LV', status: 'working', modes: ALL_MODES, added: '2026-11-17', reward: read80lv },
   { code: 'PCGAMESN', status: 'working', modes: ALL_MODES, added: '2026-08-03', noteKey: 'kordBreach', reward: pcgamesn },
   { code: 'GAMESPARK', status: 'working', modes: ALL_MODES, added: '2026-08-03', noteKey: 'kordBreach', reward: gamespark },
